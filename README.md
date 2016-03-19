@@ -5,5 +5,7 @@ FitMate is a mobile App that finds restaurants around you and matches your diet.
 
 ## Stack
 Django 1.9
+
 Python 2.7.10
+
 Bootstrap
