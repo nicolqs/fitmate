@@ -1,15 +1,29 @@
-
-.content {
-  padding-top: 51px;
+body {
+	background-color: #2E5071;
 }
 
-.sidenav.sidenav-left {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	background: #e8e8e8;
+.navbar-custom.top-nav-collapse {
+	background: #2E5071;
 }
 
-footer {
-	background: #ccc;
-	padding: 1em;
+@media all and (min-width: 768px) {
+	.navbar-custom.top-nav-collapse {
+		background: #2E5071;
+	}
+}
+
+h1 .brand-heading, h2, .intro-body {
+	color: #84E125;
+}
+
+@media all and (min-width: 768px) {
+	.brand-heading, .intro-body {
+		color: #84E125;
+	}
+}
+
+.btn-default {
+	background: transparent;
+	border-color: white;
+	color: white;
 }
