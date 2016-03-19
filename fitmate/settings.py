@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'fit.apps.FitConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -79,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'USER': 'django',
-        'NAME': 'stockmate',
+        'NAME': 'fitmate',
         'PASSWORD': 'aaS3fjf*&*3h%^2',
     }
 }
