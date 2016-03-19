@@ -17,6 +17,8 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^restaurants/', include('fit.urls')),
+    url(r'^', include('splash.urls')),
+    url(r'^restaurants/', 'fit.views.restaurants', name='restaurants'),
+    url(r'^dishes/', 'fit.views.dishes', name='dishes'),
     url(r'^admin/', admin.site.urls),
 ]

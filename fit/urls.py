@@ -1,7 +1,8 @@
-from django.conf.urls import url
+# from django.conf.urls import url
 
-from . import views
+# from . import views
 
-urlpatterns = [
-    url(r'^$', views.index, name='index'),
-]
+# urlpatterns = [
+#     url(r'dishes/^$', 'fit.views.dishes', name='dishes'),
+#     url(r'^$', 'fit.views.index', name='index'),
+# ]

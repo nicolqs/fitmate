@@ -1,9 +1,15 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.core import serializers
-from .models import Dish
+from .models import Dish, Restaurant
+import json
 
-def index(request):
+
+def dishes(request):
     dish_json = serializers.serialize('json', Dish.objects.all())
-    return  HttpResponse( dish_json, content_type="application/json")
-    #JsonResponse({ "dishes": dish_json})
+    return JsonResponse({ "dishes": json.loads(dish_json)})
+
+def restaurants(request):
+    restau_json = serializers.serialize('json', Restaurant.objects.all())
+    return JsonResponse({ "restaurants": json.loads(restau_json)})
+

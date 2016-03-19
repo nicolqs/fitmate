@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'fit.apps.FitConfig',
+    'splash.apps.SplashConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
