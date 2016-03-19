@@ -149,17 +149,32 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background: rgba(0, 0, 0, 0.6);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
+    display: block;
+}
+
+.intro::after {
+    content: "";
+    background: url(../img/background_food.jpg) no-repeat bottom center scroll;
+    background-size: cover !important;
+    background-position: center center !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+     width:50%; margin:0 auto;
 }
 
 .intro .intro-body .brand-heading {
@@ -283,7 +298,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
     }
 
     .download-section {

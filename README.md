@@ -9,3 +9,10 @@ Django 1.9
 Python 2.7.10
 
 Bootstrap
+
+## Project hierachy
+fit/ contains the model and the API endpoints for mobile App
+
+fitmate/ the main app configuration
+
+splash/ is the frontend splash site
