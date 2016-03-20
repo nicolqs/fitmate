@@ -20,10 +20,20 @@ h1 .brand-heading, h2, .intro-body {
 	.brand-heading, .intro-body {
 		color: #84E125;
 	}
+	
+	.fitmate-logo-header {
+		margin-top: 3em;
+	}
 }
 
 .btn-default {
 	background: transparent;
 	border-color: white;
 	color: white;
+}
+
+@media (max-width: 768px) {
+	.navbar-custom {
+		background: #2E5071;
+	}
 }
