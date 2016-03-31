@@ -16,3 +16,9 @@ fit/ contains the model and the API endpoints for mobile App
 fitmate/ the main app configuration
 
 splash/ is the frontend splash site
+
+**Below**: *Screenshot from the browsable API*
+
+![Screenshot][image]
+
+[image]: http://s14.postimg.org/55h1q4ur5/fitmate.png
