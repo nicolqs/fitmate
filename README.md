@@ -10,7 +10,9 @@ Python 2.7.10
 
 Bootstrap
 
-Android project [https://github.com/dakaugu/FitMate][androidrepo]
+## Clients
+
+The Android App [https://github.com/dakaugu/FitMate][androidrepo]
 
 ## Project hierachy
 fit/ contains the model and the API endpoints for mobile App
@@ -31,8 +33,8 @@ splash/ is the frontend splash site
 
 ![Screenshot][image]
 
-[android1]: http://s16.postimg.org/k13mxzq2d/2016_03_21_5.png
-[android2]: http://s9.postimg.org/vwv0npdt9/2016_03_21_6.png
-[android3]: http://s12.postimg.org/ifca87o1p/2016_03_21_7.png
+[android1]: http://s16.postimg.org/8qx4xtgvp/2016_03_21_7.png
+[android2]: http://s22.postimg.org/6u2kpmt01/2016_03_21_5.png
+[android3]: http://s10.postimg.org/unxuzq06h/2016_03_21_6.png
 [image]: http://s14.postimg.org/55h1q4ur5/fitmate.png
 [androidrepo]: https://github.com/dakaugu/FitMate
